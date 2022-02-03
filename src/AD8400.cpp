@@ -2,6 +2,7 @@
 #include <String.h>
 
 // class representing AD8400 1 channel digital potentiometer
+// after creating an instance of this class you need to call .begin() before using it;
 class AD8400 {
 private:
     uint8_t _mosiPin;
